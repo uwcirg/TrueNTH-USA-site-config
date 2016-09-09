@@ -17,7 +17,7 @@
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
           "value": "1447420906"
-        },
+        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
@@ -27,12 +27,7 @@
       ], 
       "name": "UW Medicine (University of Washington)", 
       "resourceType": "Organization", 
-      "telecom": [
-        {
-          "system": "email", 
-          "value": "mcjustin@uw.edu"
-        }
-      ]
+      "telecom": []
     }, 
     {
       "address": [], 
@@ -40,15 +35,10 @@
       "identifier": [], 
       "name": "SCCA Urology Clinic", 
       "partOf": {
-          "reference": "api/organization/101"
+        "reference": "api/organization/101"
       }, 
       "resourceType": "Organization", 
-      "telecom": [
-          {
-              "system": "email", 
-              "value": "justin.emcee+SCCAUrology@gmail.com"
-          }
-      ]
+      "telecom": []
     }, 
     {
       "address": [], 
@@ -56,7 +46,7 @@
       "identifier": [], 
       "name": "Urology Clinic at UWMC", 
       "partOf": {
-          "reference": "api/organization/101"
+        "reference": "api/organization/101"
       }, 
       "resourceType": "Organization", 
       "telecom": []
@@ -67,15 +57,15 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "1164512851"
-        },
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "ucsf"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1164512851"
         }
       ], 
       "name": "UCSF Medical Center", 
@@ -83,22 +73,7 @@
       "telecom": []
     }, 
     {
-      "id": 1001, 
-      "name": "Allow Self Management if not in Sexual Recovery", 
-      "description": "Confirm user hasn't been given access to Sexual Recovery",
-      "resourceType": "AccessStrategy",
-      "function_details": {
-          "function": "allow_if_not_in_intervention", 
-          "kwargs": [
-              {
-                  "name": "intervention_name", 
-                  "value": "sexual_recovery"
-              }
-          ]
-      } 
-    },
-    {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)]", 
+      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -196,7 +171,24 @@
         ]
       }, 
       "id": 1002, 
+      "intervention_name": "decision_support_p3p", 
       "name": "P3P Access Conditions", 
+      "resourceType": "AccessStrategy"
+    }, 
+    {
+      "description": "Confirm user hasn't been given access to Sexual Recovery", 
+      "function_details": {
+        "function": "allow_if_not_in_intervention", 
+        "kwargs": [
+          {
+            "name": "intervention_name", 
+            "value": "sexual_recovery"
+          }
+        ]
+      }, 
+      "id": 1001, 
+      "intervention_name": "self_management", 
+      "name": "Allow Self Management if not in Sexual Recovery", 
       "resourceType": "AccessStrategy"
     }
   ], 
@@ -206,7 +198,7 @@
       "export of dynamic site data from host", 
       "truenth-demo.cirg.washington.edu:5000"
     ], 
-    "lastUpdated": "2016-09-08T03:47:21.556111Z"
+    "lastUpdated": "2016-09-09T23:15:13.703961Z"
   }, 
   "resourceType": "Bundle", 
   "type": "document"

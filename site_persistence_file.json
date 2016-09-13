@@ -53,6 +53,17 @@
     }, 
     {
       "address": [], 
+      "id": 104, 
+      "identifier": [], 
+      "name": "Urology Clinic at Harborview", 
+      "partOf": {
+        "reference": "api/organization/101"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
       "id": 201, 
       "identifier": [
         {

@@ -68,15 +68,15 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "ucsf"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
           "value": "1164512851"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucsf"
         }
       ], 
       "name": "UCSF Medical Center", 
@@ -87,12 +87,13 @@
       "card_html": "Assessment Engine", 
       "description": "Assessment Engine", 
       "name": "assessment_engine", 
-      "public_access": true, 
+      "public_access": false, 
       "resourceType": "Intervention"
     }, 
     {
       "card_html": "<p>Organization and support for the many details of life as a prostate cancer survivor</p>", 
       "description": "Care Plan", 
+      "display_rank": 2, 
       "link_label": "Care Plan", 
       "name": "care_plan", 
       "public_access": false, 
@@ -108,6 +109,7 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support tool", 
+      "display_rank": 3, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
       "public_access": true, 
@@ -234,6 +236,7 @@
     {
       "card_html": "<p>Learn about symptoms that are common in men with prostate cancer, and about ways to manage and improve these symptoms.</p>", 
       "description": "Symptom Tracker tool", 
+      "display_rank": 4, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
       "public_access": true, 
@@ -258,6 +261,7 @@
     {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
+      "display_rank": 1,
       "link_label": "Sexual Recovery", 
       "name": "sexual_recovery", 
       "public_access": false, 
@@ -276,9 +280,9 @@
   "meta": {
     "fhir_comments": [
       "export of dynamic site data from host", 
-      "truenth-demo.cirg.washington.edu:5000"
+      "stg.us.truenth.org"
     ], 
-    "lastUpdated": "2016-09-12T21:52:39.445989Z"
+    "lastUpdated": "2016-09-13T00:50:09.179010Z"
   }, 
   "resourceType": "Bundle", 
   "type": "document"

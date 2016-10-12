@@ -284,6 +284,26 @@
       "custom_text": "Welcome to TrueNTH", 
       "name": "landing title", 
       "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "TrueNTH USA", 
+      "name": "layout title", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "TrueNTH Registration", 
+      "name": "portal registration", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "Invitation", 
+      "name": "profileSendEmail option invite", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "Reminder", 
+      "name": "profileSendEmail option reminder", 
+      "resourceType": "AppText"
     }
   ], 
   "id": "SitePersistence v0.1", 

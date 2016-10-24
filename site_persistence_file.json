@@ -32,7 +32,14 @@
     {
       "address": [], 
       "id": 102, 
-      "identifier": [], 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "sccaurology"
+        }
+      ], 
       "name": "SCCA Urology Clinic", 
       "partOf": {
         "reference": "api/organization/101"
@@ -43,7 +50,14 @@
     {
       "address": [], 
       "id": 103, 
-      "identifier": [], 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "uwurology"
+        }
+      ], 
       "name": "Urology Clinic at UWMC", 
       "partOf": {
         "reference": "api/organization/101"
@@ -55,6 +69,14 @@
       "address": [], 
       "id": 104, 
       "identifier": [], 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "harborviewurology"
+        }
+      ], 
       "name": "Urology Clinic at Harborview", 
       "partOf": {
         "reference": "api/organization/101"

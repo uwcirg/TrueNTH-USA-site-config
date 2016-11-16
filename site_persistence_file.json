@@ -106,6 +106,28 @@
       "telecom": []
     }, 
     {
+      "address": [], 
+      "id": 202, 
+      "identifier": [], 
+      "name": "UCSF Urologic Surgical Oncology", 
+      "partOf": {
+        "reference": "api/organization/201"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 203, 
+      "identifier": [], 
+      "name": "UCSF Genitourinary Medical Oncology", 
+      "partOf": {
+        "reference": "api/organization/201"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
       "card_html": "Assessment Engine", 
       "description": "Assessment Engine", 
       "name": "assessment_engine", 

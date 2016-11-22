@@ -156,7 +156,7 @@
       "display_rank": 3, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
-      "public_access": true, 
+      "public_access": false, 
       "resourceType": "Intervention"
     }, 
     {

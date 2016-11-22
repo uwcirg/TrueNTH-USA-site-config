@@ -160,7 +160,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "P3P [strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -270,7 +270,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2: (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "Wisercare [strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN list of clinics (including UW)) AND (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -289,22 +289,50 @@
           }, 
           {
             "name": "strategy_2", 
-            "value": "limit_by_clinic_list"
+            "value": "combine_strategies"
           }, 
           {
             "name": "strategy_2_kwargs", 
             "value": [
               {
-                "name": "org_list", 
-                "value": [
-                  "UCSF Medical Center",
-                  "UCSF Urologic Surgical Oncology", 
-                  "UCSF Genitourinary Medical Oncology"
-                ]
-              },
+                "name": "combinator", 
+                "value": "all"
+              }, 
               {
-                "name": "combinator",
-                "value": "any"
+                "name": "strategy_1", 
+                "value": "not_in_clinic_list"
+              }, 
+              {
+                "name": "strategy_1_kwargs", 
+                "value": [
+                  {
+                    "name": "org_list", 
+                    "value": [
+                      "UW Medicine (University of Washington)"
+                    ]
+                  }
+                ]
+              }, 
+              {
+                "name": "strategy_2", 
+                "value": "limit_by_clinic_list"
+              }, 
+              {
+                "name": "strategy_2_kwargs", 
+                "value": [
+                  {
+                    "name": "org_list", 
+                    "value": [
+                      "UCSF Medical Center",
+                      "UCSF Urologic Surgical Oncology", 
+                      "UCSF Genitourinary Medical Oncology"
+                    ]
+                  },
+                  {
+                    "name": "combinator",
+                    "value": "any"
+                  }
+                ]
               }
             ]
           }, 

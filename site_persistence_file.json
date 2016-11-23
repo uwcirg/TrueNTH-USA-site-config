@@ -108,7 +108,14 @@
     {
       "address": [], 
       "id": 202, 
-      "identifier": [], 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucsfurol"
+        }
+      ], 
       "name": "UCSF Urologic Surgical Oncology", 
       "partOf": {
         "reference": "api/organization/201"
@@ -119,7 +126,14 @@
     {
       "address": [], 
       "id": 203, 
-      "identifier": [], 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucsfgen"
+        }
+      ], 
       "name": "UCSF Genitourinary Medical Oncology", 
       "partOf": {
         "reference": "api/organization/201"

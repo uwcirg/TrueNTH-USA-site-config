@@ -404,7 +404,7 @@
       "display_rank": 4, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
-      "public_access": true, 
+      "public_access": false, 
       "resourceType": "Intervention"
     }, 
     {

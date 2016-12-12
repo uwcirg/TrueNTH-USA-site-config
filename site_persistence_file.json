@@ -491,32 +491,32 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52668",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=e01d7bd8-9fab-97de-888d-49d62e867128",
       "name": "UCSF Medical Center organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52651",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=417ee94f-677c-c5ee-614b-a38343b5ac86",
       "name": "UW Medicine (University of Washington) organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41603",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=d57adc33-738c-67bf-187d-a6a9c5af81c5",
       "name": "Terms of Use URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41549",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=285ed0c8-6ee6-52e1-4183-9c01be03ef4d",
       "name": "About TrueNTH URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41565",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=abaa79be-6106-8409-d499-51a3f35c1dc5",
       "name": "About Movember URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41577",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=0253efb2-e4dc-b16a-2801-084670326e53",
       "name": "Legal URL", 
       "resourceType": "AppText"
     },

@@ -236,11 +236,15 @@
           }, 
           {
             "name": "strategy_3", 
-            "value": "tx_begun"
+            "value": "observation_check"
           }, 
           {
             "name": "strategy_3_kwargs", 
             "value": [
+              {
+                "name": "display", 
+                "value": "treatment begun"
+              }, 
               {
                 "name": "boolean_value", 
                 "value": "false"
@@ -347,11 +351,15 @@
           }, 
           {
             "name": "strategy_3", 
-            "value": "tx_begun"
+            "value": "observation_check"
           }, 
           {
             "name": "strategy_3_kwargs", 
             "value": [
+              {
+                "name": "display", 
+                "value": "treatment begun"
+              }, 
               {
                 "name": "boolean_value", 
                 "value": "false"

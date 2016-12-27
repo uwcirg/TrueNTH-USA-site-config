@@ -179,7 +179,7 @@
         "kwargs": [
           {
             "name": "strategy_1", 
-            "value": "allow_if_not_in_intervention"
+            "value": "combine_strategies"
           }, 
           {
             "name": "strategy_1_kwargs", 

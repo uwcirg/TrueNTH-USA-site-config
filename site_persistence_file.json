@@ -279,20 +279,59 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "Wisercare [strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN list of clinics (including UW)) AND (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "Wisercare [strategy_1: <a nested combined strategy>: (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN list of clinics (including UW)) AND (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
           {
             "name": "strategy_1", 
-            "value": "allow_if_not_in_intervention"
+            "value": "combine_strategies"
           }, 
           {
             "name": "strategy_1_kwargs", 
             "value": [
               {
-                "name": "intervention_name", 
-                "value": "sexual_recovery"
+                "name": "combinator", 
+                "value": "all"
+              }, 
+              {
+                "name": "strategy_1", 
+                "value": "allow_if_not_in_intervention"
+              }, 
+              {
+                "name": "strategy_1_kwargs", 
+                "value": [
+                  {
+                    "name": "intervention_name", 
+                    "value": "sexual_recovery"
+                  }
+                ]
+              }, 
+              {
+                "name": "strategy_2", 
+                "value": "allow_if_not_in_intervention"
+              }, 
+              {
+                "name": "strategy_2_kwargs", 
+                "value": [
+                  {
+                    "name": "intervention_name", 
+                    "value": "care_plan"
+                  }
+                ]
+              }, 
+              {
+                "name": "strategy_3", 
+                "value": "allow_if_not_in_intervention"
+              }, 
+              {
+                "name": "strategy_3_kwargs", 
+                "value": [
+                  {
+                    "name": "intervention_name", 
+                    "value": "community_of_wellness"
+                  }
+                ]
               }
             ]
           }, 

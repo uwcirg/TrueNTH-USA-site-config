@@ -603,6 +603,7 @@
         "NO_CHALLENGE_WO_DATA = True  # Grandfather in users missing data\n",
         "PATIENTS_BY_PROVIDER_ADDL_FIELDS = ['reports']\n", 
         "PORTAL_STYLESHEET = 'css/portal.css'\n", 
+        "SHOW_WELCOME = True\n",
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'consent', 'clinical_questions', 'intervention_reports']\n", 
         "\n", 
         "# Assessment Engine configuration\n", 

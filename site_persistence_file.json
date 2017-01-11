@@ -571,7 +571,7 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=d57adc33-738c-67bf-187d-a6a9c5af81c5",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=d57adc33-738c-67bf-187d-a6a9c5af81c5",
       "name": "Terms of Use URL", 
       "resourceType": "AppText"
     }, 

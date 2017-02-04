@@ -22,10 +22,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "uwmc"
+          "value": "p3pinstitution"
         }
       ], 
-      "name": "UW Medicine (University of Washington)", 
+      "name": "P3P Clinical Institution", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -37,10 +37,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "sccaurology"
+          "value": "p3pclinica"
         }
       ], 
-      "name": "SCCA Urology Clinic", 
+      "name": "P3P Clinic A", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -55,10 +55,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "uwurology"
+          "value": "p3pclinicb"
         }
       ], 
-      "name": "Urology Clinic at UWMC", 
+      "name": "P3P Clinic B", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -73,10 +73,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "harborviewurology"
+          "value": "p3pclinicc"
         }
       ], 
-      "name": "Urology Clinic at Harborview", 
+      "name": "P3P Clinic C", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -97,10 +97,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "ucsf"
+          "value": "wcinstitution"
         }
       ], 
-      "name": "UCSF Medical Center", 
+      "name": "WiserCare Clinical Institution", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -112,10 +112,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "ucsfurol"
+          "value": "wcclinica"
         }
       ], 
-      "name": "UCSF Urologic Surgical Oncology", 
+      "name": "WiserCare Clinic A", 
       "partOf": {
         "reference": "api/organization/201"
       }, 
@@ -130,10 +130,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "ucsfgen"
+          "value": "wcclinicb"
         }
       ], 
-      "name": "UCSF Genitourinary Medical Oncology", 
+      "name": "WiserCare Clinic B", 
       "partOf": {
         "reference": "api/organization/201"
       }, 
@@ -250,7 +250,7 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "UCSF Medical Center"
+                      "WiserCare Clinical Institution"
                     ]
                   }
                 ]
@@ -265,8 +265,8 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "UW Medicine (University of Washington)", 
-                      "UCSF Medical Center"
+                      "P3P Clinical Institution", 
+                      "WiserCare Clinical Institution"
                     ]
                   }
                 ]
@@ -395,7 +395,7 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "UW Medicine (University of Washington)"
+                      "P3P Clinical Institution"
                     ]
                   }
                 ]
@@ -410,9 +410,9 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "UCSF Medical Center",
-                      "UCSF Urologic Surgical Oncology", 
-                      "UCSF Genitourinary Medical Oncology"
+                      "WiserCare Clinical Institution",
+                      "WiserCare Clinic A", 
+                      "WiserCare Clinic B" 
                     ]
                   },
                   {
@@ -562,12 +562,12 @@
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=e01d7bd8-9fab-97de-888d-49d62e867128",
-      "name": "UCSF Medical Center organization consent URL", 
+      "name": "WiserCare Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=417ee94f-677c-c5ee-614b-a38343b5ac86",
-      "name": "UW Medicine (University of Washington) organization consent URL", 
+      "name": "P3P Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
     {

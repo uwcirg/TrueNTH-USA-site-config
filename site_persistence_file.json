@@ -250,7 +250,9 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "WiserCare Clinical Institution"
+                      "WiserCare Clinical Institution",
+                      "WiserCare Clinic A", 
+                      "WiserCare Clinic B" 
                     ]
                   }
                 ]
@@ -265,8 +267,12 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "P3P Clinical Institution", 
-                      "WiserCare Clinical Institution"
+                      "P3P Clinical Institution",
+                      "P3P Clinic A",
+                      "P3P Clinic B",
+                      "WiserCare Clinical Institution",
+                      "WiserCare Clinic A", 
+                      "WiserCare Clinic B" 
                     ]
                   }
                 ]
@@ -395,7 +401,9 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "P3P Clinical Institution"
+                      "P3P Clinical Institution",
+                      "P3P Clinic A",
+                      "P3P Clinic B"
                     ]
                   }
                 ]

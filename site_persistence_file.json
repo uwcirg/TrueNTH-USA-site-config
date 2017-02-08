@@ -38,6 +38,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "p3pclinica"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "p3pclinca"
         }
       ], 
       "name": "P3P Clinic A", 

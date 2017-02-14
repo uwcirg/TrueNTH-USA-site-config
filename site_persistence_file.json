@@ -171,7 +171,7 @@
     }, 
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
-      "description": "Decision Support tool", 
+      "description": "Decision Support", 
       "display_rank": 3, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
@@ -484,7 +484,7 @@
     }, 
     {
       "card_html": "<p>Compare your symptoms over time with men like you, and manage symptoms that bother you.</p>", 
-      "description": "Symptom Tracker tool", 
+      "description": "Symptom Tracker", 
       "display_rank": 4, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 

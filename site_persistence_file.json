@@ -323,8 +323,9 @@
       "resourceType": "AccessStrategy"
     }, 
     {
-      "card_html": "Decision Support WiserCare", 
+      "card_html": "WiserCare helps patients and providers make smarter, more confident treatment choices", 
       "description": "Decision Support WiserCare", 
+      "link_label": "WiserCare",
       "name": "decision_support_wisercare", 
       "public_access": false, 
       "resourceType": "Intervention"

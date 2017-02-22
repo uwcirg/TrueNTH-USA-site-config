@@ -179,7 +179,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "P3P [strategy_1: <a nested combined strategy>: (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "P3P [strategy_1: <a nested combined strategy>: (user is PATIENT) AND (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -196,14 +196,16 @@
               }, 
               {
                 "name": "strategy_1", 
-                "value": "allow_if_not_in_intervention"
+                "value": "in_role_list"
               }, 
               {
                 "name": "strategy_1_kwargs", 
                 "value": [
                   {
-                    "name": "intervention_name", 
-                    "value": "sexual_recovery"
+                    "name": "role_list", 
+                    "value": [
+                        "patient"
+                    ]
                   }
                 ]
               }, 
@@ -216,7 +218,7 @@
                 "value": [
                   {
                     "name": "intervention_name", 
-                    "value": "care_plan"
+                    "value": "sexual_recovery"
                   }
                 ]
               }, 
@@ -226,6 +228,19 @@
               }, 
               {
                 "name": "strategy_3_kwargs", 
+                "value": [
+                  {
+                    "name": "intervention_name", 
+                    "value": "care_plan"
+                  }
+                ]
+              }, 
+              {
+                "name": "strategy_4", 
+                "value": "allow_if_not_in_intervention"
+              }, 
+              {
+                "name": "strategy_4_kwargs", 
                 "value": [
                   {
                     "name": "intervention_name", 
@@ -331,7 +346,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "Wisercare [strategy_1: <a nested combined strategy>: (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN list of clinics (including UW)) AND (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "Wisercare [strategy_1: <a nested combined strategy>: (user is PATIENT) AND (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN list of clinics (including UW)) AND (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -348,14 +363,16 @@
               }, 
               {
                 "name": "strategy_1", 
-                "value": "allow_if_not_in_intervention"
+                "value": "in_role_list"
               }, 
               {
                 "name": "strategy_1_kwargs", 
                 "value": [
                   {
-                    "name": "intervention_name", 
-                    "value": "sexual_recovery"
+                    "name": "role_list", 
+                    "value": [
+                        "patient"
+                    ]
                   }
                 ]
               }, 
@@ -368,7 +385,7 @@
                 "value": [
                   {
                     "name": "intervention_name", 
-                    "value": "care_plan"
+                    "value": "sexual_recovery"
                   }
                 ]
               }, 
@@ -378,6 +395,19 @@
               }, 
               {
                 "name": "strategy_3_kwargs", 
+                "value": [
+                  {
+                    "name": "intervention_name", 
+                    "value": "care_plan"
+                  }
+                ]
+              }, 
+              {
+                "name": "strategy_4", 
+                "value": "allow_if_not_in_intervention"
+              }, 
+              {
+                "name": "strategy_4_kwargs", 
                 "value": [
                   {
                     "name": "intervention_name", 

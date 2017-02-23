@@ -634,12 +634,12 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=e01d7bd8-9fab-97de-888d-49d62e867128",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca",
       "name": "WiserCare Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=417ee94f-677c-c5ee-614b-a38343b5ac86",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca",
       "name": "P3P Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
@@ -648,6 +648,11 @@
       "name": "Terms of Use URL", 
       "resourceType": "AppText"
     }, 
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=cbe17d0d-f25d-27fb-0d92-c22bc687bb0f",
+      "name": "New Terms of Use URL",
+      "resourceType": "AppText"
+    },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=285ed0c8-6ee6-52e1-4183-9c01be03ef4d",
       "name": "About TrueNTH URL", 

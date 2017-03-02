@@ -22,10 +22,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pinstitution"
+          "value": "uwmc"
         }
       ], 
-      "name": "P3P Clinical Institution", 
+      "name": "UW Medicine (University of Washington)", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -37,16 +37,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pclinica"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "p3pclinca"
+          "value": "uwurology"
         }
       ], 
-      "name": "P3P Clinic A", 
+      "name": "Urology Clinic at UWMC", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -61,10 +55,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pclinicb"
+          "value": "sccaurology"
         }
       ], 
-      "name": "P3P Clinic B", 
+      "name": "SCCA Urology Clinic", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -79,69 +73,12 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pclinicc"
+          "value": "harborviewurology"
         }
       ], 
-      "name": "P3P Clinic C", 
+      "name": "Urology Clinic at Harborview", 
       "partOf": {
         "reference": "api/organization/101"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 201, 
-      "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "1164512851"
-        }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "wcinstitution"
-        }
-      ], 
-      "name": "WiserCare Clinical Institution", 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 202, 
-      "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "wcclinica"
-        }
-      ], 
-      "name": "WiserCare Clinic A", 
-      "partOf": {
-        "reference": "api/organization/201"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 203, 
-      "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "wcclinicb"
-        }
-      ], 
-      "name": "WiserCare Clinic B", 
-      "partOf": {
-        "reference": "api/organization/201"
       }, 
       "resourceType": "Organization", 
       "telecom": []
@@ -288,9 +225,10 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "P3P Clinical Institution",
-                      "P3P Clinic A",
-                      "P3P Clinic B",
+                      "UW Medicine (University of Washington)",
+                      "Urology Clinic at UWMC",
+                      "SCCA Urology Clinic",
+                      "Urology Clinic at Harborview",
                       "WiserCare Clinical Institution",
                       "WiserCare Clinic A", 
                       "WiserCare Clinic B" 

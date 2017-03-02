@@ -208,9 +208,6 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "WiserCare Clinical Institution",
-                      "WiserCare Clinic A", 
-                      "WiserCare Clinic B" 
                     ]
                   }
                 ]
@@ -228,10 +225,7 @@
                       "UW Medicine (University of Washington)",
                       "Urology Clinic at UWMC",
                       "SCCA Urology Clinic",
-                      "Urology Clinic at Harborview",
-                      "WiserCare Clinical Institution",
-                      "WiserCare Clinic A", 
-                      "WiserCare Clinic B" 
+                      "Urology Clinic at Harborview"
                     ]
                   }
                 ]
@@ -376,9 +370,10 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "P3P Clinical Institution",
-                      "P3P Clinic A",
-                      "P3P Clinic B"
+                      "UW Medicine (University of Washington)",
+                      "Urology Clinic at UWMC",
+                      "SCCA Urology Clinic",
+                      "Urology Clinic at Harborview"
                     ]
                   }
                 ]
@@ -393,9 +388,6 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "WiserCare Clinical Institution",
-                      "WiserCare Clinic A", 
-                      "WiserCare Clinic B" 
                     ]
                   },
                   {

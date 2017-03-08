@@ -156,7 +156,7 @@
     {
       "card_html": "<p>Organization and support for the many details of life as a prostate cancer survivor</p>", 
       "description": "Care Plan", 
-      "display_rank": 2, 
+      "display_rank": 20, 
       "link_label": "Care Plan", 
       "name": "care_plan", 
       "public_access": false, 
@@ -172,7 +172,7 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support", 
-      "display_rank": 3, 
+      "display_rank": 30, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
       "public_access": false, 
@@ -340,6 +340,7 @@
     {
       "card_html": "WiserCare helps patients and providers make smarter, more confident treatment choices", 
       "description": "Decision Support WiserCare", 
+      "display_rank": 40, 
       "link_label": "WiserCare",
       "name": "decision_support_wisercare", 
       "public_access": false, 
@@ -516,7 +517,7 @@
     {
       "card_html": "<p>Compare your symptoms over time with men like you, and manage symptoms that bother you.</p>", 
       "description": "Symptom Tracker", 
-      "display_rank": 4, 
+      "display_rank": 50, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
       "public_access": false, 
@@ -569,7 +570,7 @@
     {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
-      "display_rank": 1,
+      "display_rank": 10,
       "link_label": "Sexual Recovery", 
       "name": "sexual_recovery", 
       "public_access": false, 

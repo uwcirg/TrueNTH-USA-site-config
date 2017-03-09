@@ -507,6 +507,43 @@
       "resourceType": "AccessStrategy"
     }, 
     {
+      "resourceType": "AccessStrategy", 
+      "intervention_name": "decision_support_unavailable", 
+      "id": 1004, 
+      "name": "exclusive decision support strategy when real DS aren't avail", 
+      "function_details": {
+        "function": "combine_strategies", 
+        "kwargs": [
+          {
+            "name": "strategy_1", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_1_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "decision_support_p3p"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_2", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_2_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "decision_support_wisercare"
+              }
+            ]
+          } 
+        ]
+      }
+    },
+    {
       "description": "OTHER: not yet officially supported", 
       "link_label": "", 
       "name": "default", 
@@ -584,6 +621,15 @@
       "public_access": false, 
       "resourceType": "Intervention"
     },
+    {
+      "card_html": "TrueNTH Decision Support is intended for use by men who have not yet started active treatment.", 
+      "description": "Decision Support", 
+      "display_rank": 60, 
+      "link_label": "Not Available", 
+      "name": "decision_support_unavailable", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }, 
     {
       "custom_text": "Tools for navigating the prostate cancer journey", 
       "name": "landing sub-title", 

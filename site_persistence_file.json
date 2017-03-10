@@ -651,6 +651,16 @@
       "resourceType": "AppText"
     }, 
     {
+      "custom_text": "Register for TrueNTH",
+      "name": "registration title",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "Create an account",
+      "name": "registration prompt",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "TrueNTH Invitation", 
       "name": "profileSendEmail option invite", 
       "resourceType": "AppText"

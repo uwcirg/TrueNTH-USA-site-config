@@ -49,7 +49,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
-          "value": "state:WA"
+          "value": "state:CA"
         }
       ], 
       "name": "P3P Clinic A", 
@@ -73,19 +73,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
-          "value": "state:CT"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/practice-region", 
-          "use": "secondary", 
-          "value": "state:NJ"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/practice-region", 
-          "use": "secondary", 
-          "value": "state:NY"
+          "value": "state:CA"
         }
       ], 
       "name": "P3P Clinic B", 
@@ -104,6 +92,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "p3pclinicc"
+        },
+	{
+          "assigner": null,
+          "system": "http://us.truenth.org/identity-codes/practice-region",
+          "use": "secondary",
+          "value": "state:CA"
         }
       ], 
       "name": "P3P Clinic C", 
@@ -143,6 +137,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "wcclinica"
+        },
+	{
+          "assigner": null,
+          "system": "http://us.truenth.org/identity-codes/practice-region",
+          "use": "secondary",
+          "value": "state:WA"
         }
       ], 
       "name": "WiserCare Clinic A", 
@@ -166,7 +166,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
-          "value": "state:CA"
+          "value": "state:WA"
         }
       ], 
       "name": "WiserCare Clinic B", 

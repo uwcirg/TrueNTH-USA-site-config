@@ -38,6 +38,18 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "uwurology"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "p3pclinca"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:WA"
         }
       ], 
       "name": "Urology Clinic at UWMC", 
@@ -56,6 +68,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "sccaurology"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:WA"
         }
       ], 
       "name": "SCCA Urology Clinic", 
@@ -74,6 +92,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "harborviewurology"
+        },
+        {
+          "assigner": null,
+          "system": "http://us.truenth.org/identity-codes/practice-region",
+          "use": "secondary",
+          "value": "state:WA"
         }
       ], 
       "name": "Urology Clinic at Harborview", 
@@ -93,7 +117,7 @@
     {
       "card_html": "<p>Organization and support for the many details of life as a prostate cancer survivor</p>", 
       "description": "Care Plan", 
-      "display_rank": 2, 
+      "display_rank": 20, 
       "link_label": "Care Plan", 
       "name": "care_plan", 
       "public_access": false, 
@@ -109,7 +133,7 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support", 
-      "display_rank": 3, 
+      "display_rank": 30, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
       "public_access": false, 
@@ -272,6 +296,7 @@
     {
       "card_html": "WiserCare helps patients and providers make smarter, more confident treatment choices", 
       "description": "Decision Support WiserCare", 
+      "display_rank": 40, 
       "link_label": "WiserCare",
       "name": "decision_support_wisercare", 
       "public_access": false, 
@@ -436,6 +461,43 @@
       "resourceType": "AccessStrategy"
     }, 
     {
+      "resourceType": "AccessStrategy", 
+      "intervention_name": "decision_support_unavailable", 
+      "id": 1004, 
+      "name": "exclusive decision support strategy when real DS aren't avail", 
+      "function_details": {
+        "function": "combine_strategies", 
+        "kwargs": [
+          {
+            "name": "strategy_1", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_1_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "decision_support_p3p"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_2", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_2_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "decision_support_wisercare"
+              }
+            ]
+          } 
+        ]
+      }
+    },
+    {
       "description": "OTHER: not yet officially supported", 
       "link_label": "", 
       "name": "default", 
@@ -446,7 +508,7 @@
     {
       "card_html": "<p>Compare your symptoms over time with men like you, and manage symptoms that bother you.</p>", 
       "description": "Symptom Tracker", 
-      "display_rank": 4, 
+      "display_rank": 50, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
       "public_access": false, 
@@ -499,7 +561,7 @@
     {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
-      "display_rank": 1,
+      "display_rank": 10,
       "link_label": "Sexual Recovery", 
       "name": "sexual_recovery", 
       "public_access": false, 
@@ -513,6 +575,15 @@
       "public_access": false, 
       "resourceType": "Intervention"
     },
+    {
+      "card_html": "TrueNTH Decision Support is intended for use by men who have not yet started active treatment.", 
+      "description": "Decision Support", 
+      "display_rank": 60, 
+      "link_label": "Not Available", 
+      "name": "decision_support_unavailable", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }, 
     {
       "custom_text": "Tools for navigating the prostate cancer journey", 
       "name": "landing sub-title", 
@@ -533,6 +604,16 @@
       "name": "portal registration", 
       "resourceType": "AppText"
     }, 
+    {
+      "custom_text": "Register for TrueNTH",
+      "name": "registration title",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "Create an account",
+      "name": "registration prompt",
+      "resourceType": "AppText"
+    },
     {
       "custom_text": "TrueNTH Invitation", 
       "name": "profileSendEmail option invite", 
@@ -575,12 +656,12 @@
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=d57adc33-738c-67bf-187d-a6a9c5af81c5",
-      "name": "Terms of Use URL", 
+      "name": "Initial Consent Terms URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=cbe17d0d-f25d-27fb-0d92-c22bc687bb0f",
-      "name": "New Terms of Use URL",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=cbe17d0d-f25d-27fb-0d92-c22bc687bb0f",
+      "name": "Terms and Conditions URL",
       "resourceType": "AppText"
     },
     {
@@ -595,7 +676,7 @@
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=0253efb2-e4dc-b16a-2801-084670326e53",
-      "name": "Legal URL", 
+      "name": "Privacy URL", 
       "resourceType": "AppText"
     },
     {
@@ -609,13 +690,14 @@
         "## SITE-PERSISTENCE Managed: File managed with site_persistence - don't edit.\n", 
         "DEFAULT_LOCALE = 'en_US'\n", 
         "NO_CHALLENGE_WO_DATA = True  # Grandfather in users missing data\n",
-        "PATIENTS_BY_PROVIDER_ADDL_FIELDS = ['reports']\n", 
+        "PATIENT_LIST_ADDL_FIELDS = ['reports']\n",
         "PORTAL_STYLESHEET = 'css/portal.css'\n", 
         "GIL = True\n", 
         "SHOW_WELCOME = True\n",
-        "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'consent', 'clinical_questions', 'intervention_reports', 'procedures']\n", 
+        "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'consent', 'clinical_questions', 'intervention_reports', 'procedures', 'gender', 'interventions']\n", 
         "CONSENT_EDIT_PERMISSIBLE_ROLES=['patient', 'admin']\n",
         "CONSENT_WITH_TOP_LEVEL_ORG=True\n",
+	"STAFF_BULK_DATA_ACCESS=False\n",
         "\n", 
         "# Assessment Engine configuration\n", 
         "INSTRUMENTS = [\n", 

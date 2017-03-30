@@ -721,37 +721,37 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca&editorUrl=true",
       "name": "WiserCare Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca&editorUrl=true",
       "name": "P3P Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=d57adc33-738c-67bf-187d-a6a9c5af81c5",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=d57adc33-738c-67bf-187d-a6a9c5af81c5&editorUrl=true",
       "name": "Initial Consent Terms URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=cbe17d0d-f25d-27fb-0d92-c22bc687bb0f",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=cbe17d0d-f25d-27fb-0d92-c22bc687bb0f&editorUrl=true",
       "name": "Terms and Conditions URL",
       "resourceType": "AppText"
     },
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=285ed0c8-6ee6-52e1-4183-9c01be03ef4d",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=285ed0c8-6ee6-52e1-4183-9c01be03ef4d&editorUrl=true",
       "name": "About TrueNTH URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=abaa79be-6106-8409-d499-51a3f35c1dc5",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=abaa79be-6106-8409-d499-51a3f35c1dc5&editorUrl=true",
       "name": "About Movember URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&version=latest&uuid=0253efb2-e4dc-b16a-2801-084670326e53",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=0253efb2-e4dc-b16a-2801-084670326e53&editorUrl=true",
       "name": "Privacy URL", 
       "resourceType": "AppText"
     },

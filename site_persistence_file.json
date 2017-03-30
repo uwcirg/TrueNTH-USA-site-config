@@ -771,6 +771,7 @@
         "GIL = True\n", 
         "SHOW_WELCOME = True\n",
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'consent', 'clinical_questions', 'intervention_reports', 'procedures', 'gender', 'interventions']\n", 
+        "USER_FORGOT_PASSWORD_EMAIL_TEMPLATE = 'flask_user/emails/truenth_forgot_password'\n",
         "CONSENT_EDIT_PERMISSIBLE_ROLES=['patient', 'admin']\n",
         "CONSENT_WITH_TOP_LEVEL_ORG=True\n",
 	"STAFF_BULK_DATA_ACCESS=False\n",

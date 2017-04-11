@@ -22,10 +22,16 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pinstitution"
+          "value": "uwmc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:WA"
         }
       ], 
-      "name": "P3P Clinical Institution", 
+      "name": "UW Medicine (University of Washington)", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -37,22 +43,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pclinica"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "p3pclinca"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/practice-region", 
-          "use": "secondary", 
-          "value": "state:WA"
+          "value": "uwurology"
         }
       ], 
-      "name": "P3P Clinic A", 
+      "name": "Urology Clinic at UWMC", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -67,7 +61,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pclinicb"
+          "value": "sccaurology"
         },
         {
           "assigner": null, 
@@ -76,7 +70,7 @@
           "value": "state:WA"
         }
       ], 
-      "name": "P3P Clinic B", 
+      "name": "SCCA Urology Clinic", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -91,7 +85,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "p3pclinicc"
+          "value": "harborviewurology"
         },
 	{
           "assigner": null,
@@ -100,7 +94,7 @@
           "value": "state:WA"
         }
       ], 
-      "name": "P3P Clinic C", 
+      "name": "Urology Clinic at Harborview", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -121,46 +115,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "wcinstitution"
-        }
-      ], 
-      "name": "WiserCare Clinical Institution", 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 202, 
-      "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "wcclinica"
-        },
-	{
-          "assigner": null,
-          "system": "http://us.truenth.org/identity-codes/practice-region",
-          "use": "secondary",
-          "value": "state:CA"
-        }
-      ], 
-      "name": "WiserCare Clinic A", 
-      "partOf": {
-        "reference": "api/organization/201"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 203, 
-      "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "wcclinicb"
+          "value": "ucsf"
         },
         {
           "assigner": null, 
@@ -169,10 +124,358 @@
           "value": "state:CA"
         }
       ], 
-      "name": "WiserCare Clinic B", 
-      "partOf": {
-        "reference": "api/organization/201"
-      }, 
+      "name": "UCSF Medical Center", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 301, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1639429368"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "kciwsu"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MI"
+        }
+      ], 
+      "name": "Karmanos Cancer Institute at Wayne State University", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 401, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1508001561"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "umich"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MI"
+        }
+      ], 
+      "name": "University of Michigan Cancer Center", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 501, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1912987553"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucdav"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CA"
+        }
+      ], 
+      "name": "UC Davis Cancer Center", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 601, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1639306798"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucla"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CA"
+        }
+      ], 
+      "name": "UCLA Urology", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 701, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1972758506"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "emory"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:GA"
+        }
+      ], 
+      "name": "Emory Healthcare", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 801, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1083942064"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "moffit"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:FL"
+        }
+      ], 
+      "name": "Moffitt Cancer Center", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 901, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1215097910"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "dfci"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MA"
+        }
+      ], 
+      "name": "Dana-Farber Cancer Institute / Brigham and Womens", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1001, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1134306855"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "mskcc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NY"
+        }
+      ], 
+      "name": "Memorial Sloan Kettering Cancer Center", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1101, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1649623406"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ohsu"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:OR"
+        }
+      ], 
+      "name": "Oregon Health & Science University", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1201, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1598980310"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucden"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CO"
+        }
+      ], 
+      "name": "University of Colorado, Denver", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1301, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1588030878"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "duke"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NC"
+        }
+      ], 
+      "name": "Duke University Health System", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1401, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1295731966"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "jhu"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MD"
+        }
+      ], 
+      "name": "Johns Hopkins University", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1501, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1285689299"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "unc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NC"
+        }
+      ], 
+      "name": "University of North Carolina at Chapel Hill", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -301,9 +604,6 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "WiserCare Clinical Institution",
-                      "WiserCare Clinic A", 
-                      "WiserCare Clinic B" 
                     ]
                   }
                 ]
@@ -318,12 +618,14 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "P3P Clinical Institution",
-                      "P3P Clinic A",
-                      "P3P Clinic B",
-                      "WiserCare Clinical Institution",
-                      "WiserCare Clinic A", 
-                      "WiserCare Clinic B" 
+                      "UW Medicine (University of Washington)",
+                      "Karmanos Cancer Institute at Wayne State University",
+                      "University of Michigan Cancer Center",
+                      "Emory Healthcare",
+                      "Moffitt Cancer Center",
+                      "Dana-Farber Cancer Institute / Brigham and Womens",
+                      "Duke University Health System",
+                      "UC Davis Cancer Center"
                     ]
                   }
                 ]
@@ -469,9 +771,13 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "P3P Clinical Institution",
-                      "P3P Clinic A",
-                      "P3P Clinic B"
+                      "UW Medicine (University of Washington)",
+                      "Karmanos Cancer Institute at Wayne State University",
+                      "University of Michigan Cancer Center",
+                      "Emory Healthcare",
+                      "Moffitt Cancer Center",
+                      "Dana-Farber Cancer Institute / Brigham and Womens",
+                      "Duke University Health System"
                     ]
                   }
                 ]
@@ -486,9 +792,6 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "WiserCare Clinical Institution",
-                      "WiserCare Clinic A", 
-                      "WiserCare Clinic B" 
                     ]
                   },
                   {

@@ -44,6 +44,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "uwurology"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "p3pclinca"
         }
       ], 
       "name": "Urology Clinic at UWMC", 

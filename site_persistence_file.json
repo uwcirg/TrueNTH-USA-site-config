@@ -29,6 +29,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:WA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "UW Medicine (University of Washington)", 
@@ -146,6 +152,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:CA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "UCSF Medical Center", 
@@ -173,6 +185,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:MI"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "Karmanos Cancer Institute at Wayne State University", 
@@ -200,6 +218,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:MI"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "University of Michigan Cancer Center", 
@@ -227,6 +251,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:CA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "UC Davis Cancer Center", 
@@ -254,6 +284,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:CA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "UCLA Urology", 
@@ -281,6 +317,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:GA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "Emory Healthcare", 
@@ -308,6 +350,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:FL"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "Moffitt Cancer Center", 
@@ -335,6 +383,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:MA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "Dana-Farber Cancer Institute / Brigham and Womens", 
@@ -362,6 +416,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:NY"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "Memorial Sloan Kettering Cancer Center", 
@@ -416,6 +476,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:CO"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "University of Colorado, Denver", 
@@ -443,6 +509,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:NC"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "p3p"
         }
       ], 
       "name": "Duke University Health System", 
@@ -470,6 +542,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:MD"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "Johns Hopkins University", 
@@ -497,6 +575,12 @@
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:NC"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
         }
       ], 
       "name": "University of North Carolina at Chapel Hill", 
@@ -536,13 +620,14 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "P3P [strategy_1: <a nested combined strategy>: (user is PATIENT) AND (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "P3P [strategy_1: <a nested combined strategy>: (user is PATIENT) AND (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN wisercare clinic) OR (user IN both p3p and wisercare))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
           {
             "name": "strategy_1", 
-            "value": "combine_strategies"
+            "value": "combine_strategies",
+            "description": "User is patient and not in list of interventions"
           }, 
           {
             "name": "strategy_1_kwargs", 
@@ -609,7 +694,8 @@
           }, 
           {
             "name": "strategy_2", 
-            "value": "combine_strategies"
+            "value": "combine_strategies",
+            "description": "User not in WC or (both p3p and WC)"
           }, 
           {
             "name": "strategy_2_kwargs", 
@@ -620,42 +706,54 @@
               }, 
               {
                 "name": "strategy_1", 
-                "value": "not_in_clinic_list"
+                "value": "not_in_clinic_w_id"
               }, 
               {
                 "name": "strategy_1_kwargs", 
                 "value": [
                   {
-                    "name": "org_list", 
-                    "value": [
-                    ]
+                    "name": "identifier_value", 
+                    "value": "wisercare"
                   }
                 ]
               }, 
               {
                 "name": "strategy_2", 
-                "value": "limit_by_clinic_list"
+                "value": "combine_strategies"
               }, 
               {
                 "name": "strategy_2_kwargs", 
                 "value": [
                   {
-                    "name": "org_list", 
+                    "name": "strategy_1", 
+                    "value": "limit_by_clinic_w_id"
+                  }, 
+                  {
+                    "name": "strategy_1_kwargs", 
                     "value": [
-                      "UW Medicine (University of Washington)",
-                      "Karmanos Cancer Institute at Wayne State University",
-                      "University of Michigan Cancer Center",
-                      "Emory Healthcare",
-                      "Moffitt Cancer Center",
-                      "Dana-Farber Cancer Institute / Brigham and Womens",
-                      "Duke University Health System",
-                      "UC Davis Cancer Center"
+                      {
+                        "name": "identifier_value", 
+                        "value": "wisercare"
+                      }
+                    ]
+                  }, 
+                  {
+                    "name": "strategy_2", 
+                    "value": "limit_by_clinic_w_id"
+                  }, 
+                  {
+                    "name": "strategy_2_kwargs", 
+                    "value": [
+                      {
+                        "name": "identifier_value", 
+                        "value": "p3p"
+                      }
                     ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
             "name": "strategy_3", 
             "value": "tx_begun"
@@ -703,7 +801,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "Wisercare [strategy_1: <a nested combined strategy>: (user is PATIENT) AND (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN list of clinics (including UW)) AND (user IN list of clinics (including UCSF))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "Wisercare [strategy_1: <a nested combined strategy>: (user is PATIENT) AND (user NOT IN (sexual_recovery, care_plan, community_of_wellness)] AND [strategy_2: <a nested combined strategy>: ((user NOT IN p3p clinics) AND (user IN WiserCare clinic)] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -787,36 +885,27 @@
               }, 
               {
                 "name": "strategy_1", 
-                "value": "not_in_clinic_list"
+                "value": "not_in_clinic_w_id"
               }, 
               {
                 "name": "strategy_1_kwargs", 
                 "value": [
                   {
-                    "name": "org_list", 
-                    "value": [
-                      "UW Medicine (University of Washington)",
-                      "Karmanos Cancer Institute at Wayne State University",
-                      "University of Michigan Cancer Center",
-                      "Emory Healthcare",
-                      "Moffitt Cancer Center",
-                      "Dana-Farber Cancer Institute / Brigham and Womens",
-                      "Duke University Health System"
-                    ]
+                    "name": "identifier_value", 
+                    "value": "p3p"
                   }
                 ]
               }, 
               {
                 "name": "strategy_2", 
-                "value": "limit_by_clinic_list"
+                "value": "limit_by_clinic_w_id"
               }, 
               {
                 "name": "strategy_2_kwargs", 
                 "value": [
                   {
-                    "name": "org_list", 
-                    "value": [
-                    ]
+                    "name": "identifier_value", 
+                    "value": "wisercare" 
                   },
                   {
                     "name": "combinator",

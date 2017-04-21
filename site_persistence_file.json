@@ -1143,7 +1143,7 @@
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca&editorUrl=true",
-      "name": "UW Medicine (University of Washington) organization consent URL", 
+      "name": "P3P Clinical Institution organization consent URL", 
       "resourceType": "AppText"
     }, 
     {

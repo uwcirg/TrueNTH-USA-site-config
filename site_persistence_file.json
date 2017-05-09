@@ -985,6 +985,15 @@
                 "value": "decision_support_wisercare"
               }
             ]
+          }, 
+          {
+            "name": "strategy_3_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "sexual_recovery"
+              }
+            ]
           } 
         ]
       }
@@ -1053,7 +1062,7 @@
     {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
-      "display_rank": 70,
+      "display_rank": 5,
       "link_label": "Sexual Recovery", 
       "name": "sexual_recovery", 
       "public_access": false, 

@@ -613,7 +613,7 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support", 
-      "display_rank": 30, 
+      "display_rank": 10, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
       "public_access": false, 
@@ -794,7 +794,7 @@
     {
       "card_html": "WiserCare helps patients and providers make smarter, more confident treatment choices", 
       "description": "Decision Support WiserCare", 
-      "display_rank": 40, 
+      "display_rank": 20, 
       "link_label": "WiserCare",
       "name": "decision_support_wisercare", 
       "public_access": false, 
@@ -1000,7 +1000,7 @@
     {
       "card_html": "<p>Compare your symptoms over time with men like you, and manage symptoms that bother you.</p>", 
       "description": "Symptom Tracker", 
-      "display_rank": 50, 
+      "display_rank": 30, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
       "public_access": false, 
@@ -1053,7 +1053,7 @@
     {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
-      "display_rank": 10,
+      "display_rank": 70,
       "link_label": "Sexual Recovery", 
       "name": "sexual_recovery", 
       "public_access": false, 
@@ -1070,11 +1070,75 @@
     {
       "card_html": "TrueNTH Decision Support is intended for use by men who have not yet started active treatment.", 
       "description": "Decision Support", 
-      "display_rank": 60, 
+      "display_rank": 25, 
       "link_label": "Not Available", 
       "name": "decision_support_unavailable", 
       "public_access": false, 
       "resourceType": "Intervention"
+    }, 
+    {
+      "card_html": "TrueNTH brings lived experiences from men, their caregivers and clinicians to help you in your prostate cancer journey.", 
+      "description": "Lived Experiences", 
+      "display_rank": 40, 
+      "link_label": "lived experience", 
+      "static_link_url": "/lived-experience", 
+      "name": "lived_experience", 
+      "public_access": true, 
+      "resourceType": "Intervention"
+    }, 
+    {
+      "card_html": "To provide men and the people in their lives with the tools and support they need to optimize their health through exercise and diet.", 
+      "description": "Exercise and Diet", 
+      "display_rank": 50, 
+      "link_label": "Exercise and Diet", 
+      "static_link_url": "/exercise-and-diet",
+      "name": "exercise_diet", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }, 
+    {
+      "description": "Confirm user is patient who hasn't been given access to Community of Wellness", 
+      "function_details": {
+        "function": "combine_strategies", 
+        "kwargs": [
+          {
+            "name": "combinator", 
+            "value": "all"
+          }, 
+          {
+            "name": "strategy_1", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_1_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "community_of_wellness"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_2", 
+            "value": "in_role_list"
+          }, 
+          {
+            "name": "strategy_2_kwargs", 
+            "value": [
+              {
+                "name": "role_list", 
+                "value": [
+                    "patient"
+                ]
+              }
+            ]
+          } 
+        ]
+      }, 
+      "id": 1006, 
+      "intervention_name": "exercise_diet", 
+      "name": "Allow Exercise & Diet if patient not in Communitiy of Wellness", 
+      "resourceType": "AccessStrategy"
     }, 
     {
       "custom_text": "Tools for navigating the prostate cancer journey", 

@@ -1108,7 +1108,7 @@
     }, 
     {
       "card_html": "TrueNTH brings lived experiences from men, their caregivers and clinicians to help you in your prostate cancer journey.", 
-      "description": "Lived Experiences", 
+      "description": "Lived Experience", 
       "display_rank": 60, 
       "link_label": "lived experience", 
       "static_link_url": "/lived-experience", 
@@ -1128,7 +1128,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "Confirm user is patient who hasn't been given access to Community of Wellness or Sexual Recovery", 
+      "description": "Confirm user hasn't been given access to Community of Wellness or Sexual Recovery", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -1161,27 +1161,12 @@
                 "value": "sexual_recovery"
               }
             ]
-          }, 
-          {
-            "name": "strategy_3", 
-            "value": "in_role_list"
-          }, 
-          {
-            "name": "strategy_3_kwargs", 
-            "value": [
-              {
-                "name": "role_list", 
-                "value": [
-                    "patient"
-                ]
-              }
-            ]
           } 
         ]
       }, 
       "id": 1006, 
       "intervention_name": "exercise_diet", 
-      "name": "Allow Exercise & Diet if patient not in Communitiy of Wellness or Sexual Recovery", 
+      "name": "Allow Exercise & Diet if not in Communitiy of Wellness or Sexual Recovery", 
       "resourceType": "AccessStrategy"
     }, 
     {

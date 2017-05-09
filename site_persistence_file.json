@@ -604,8 +604,10 @@
       "resourceType": "Intervention"
     }, 
     {
-      "card_html": "Community of Wellness", 
-      "description": "Community of Wellness", 
+      "card_html": "Community of Wellness",
+      "comment": "AKA Exercise and Diet RCT",
+      "description": "Exercise and Diet", 
+      "display_rank": 10, 
       "name": "community_of_wellness", 
       "public_access": false, 
       "resourceType": "Intervention"
@@ -613,7 +615,7 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support", 
-      "display_rank": 10, 
+      "display_rank": 30, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
       "public_access": false, 
@@ -794,7 +796,7 @@
     {
       "card_html": "WiserCare helps patients and providers make smarter, more confident treatment choices", 
       "description": "Decision Support WiserCare", 
-      "display_rank": 20, 
+      "display_rank": 31, 
       "link_label": "WiserCare",
       "name": "decision_support_wisercare", 
       "public_access": false, 
@@ -985,6 +987,34 @@
                 "value": "decision_support_wisercare"
               }
             ]
+          }, 
+          {
+            "name": "strategy_3", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_3_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "sexual_recovery"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_4", 
+            "value": "in_role_list"
+          }, 
+          {
+            "name": "strategy_4_kwargs", 
+            "value": [
+              {
+                "name": "role_list", 
+                "value": [
+                    "patient"
+                ]
+              }
+            ]
           } 
         ]
       }
@@ -1000,7 +1030,7 @@
     {
       "card_html": "<p>Compare your symptoms over time with men like you, and manage symptoms that bother you.</p>", 
       "description": "Symptom Tracker", 
-      "display_rank": 30, 
+      "display_rank": 40, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
       "public_access": false, 
@@ -1053,7 +1083,7 @@
     {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
-      "display_rank": 70,
+      "display_rank": 5,
       "link_label": "Sexual Recovery", 
       "name": "sexual_recovery", 
       "public_access": false, 
@@ -1070,7 +1100,7 @@
     {
       "card_html": "TrueNTH Decision Support is intended for use by men who have not yet started active treatment.", 
       "description": "Decision Support", 
-      "display_rank": 25, 
+      "display_rank": 32, 
       "link_label": "Not Available", 
       "name": "decision_support_unavailable", 
       "public_access": false, 
@@ -1079,7 +1109,7 @@
     {
       "card_html": "TrueNTH brings lived experiences from men, their caregivers and clinicians to help you in your prostate cancer journey.", 
       "description": "Lived Experiences", 
-      "display_rank": 40, 
+      "display_rank": 60, 
       "link_label": "lived experience", 
       "static_link_url": "/lived-experience", 
       "name": "lived_experience", 
@@ -1088,6 +1118,7 @@
     }, 
     {
       "card_html": "To provide men and the people in their lives with the tools and support they need to optimize their health through exercise and diet.", 
+      "comment": "Exercise and Diet (non-RCT). See also Community of Wellness",
       "description": "Exercise and Diet", 
       "display_rank": 50, 
       "link_label": "Exercise and Diet", 
@@ -1097,7 +1128,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "Confirm user is patient who hasn't been given access to Community of Wellness", 
+      "description": "Confirm user is patient who hasn't been given access to Community of Wellness or Sexual Recovery", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -1120,10 +1151,23 @@
           }, 
           {
             "name": "strategy_2", 
-            "value": "in_role_list"
+            "value": "allow_if_not_in_intervention"
           }, 
           {
             "name": "strategy_2_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "sexual_recovery"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_3", 
+            "value": "in_role_list"
+          }, 
+          {
+            "name": "strategy_3_kwargs", 
             "value": [
               {
                 "name": "role_list", 
@@ -1137,7 +1181,7 @@
       }, 
       "id": 1006, 
       "intervention_name": "exercise_diet", 
-      "name": "Allow Exercise & Diet if patient not in Communitiy of Wellness", 
+      "name": "Allow Exercise & Diet if patient not in Communitiy of Wellness or Sexual Recovery", 
       "resourceType": "AccessStrategy"
     }, 
     {

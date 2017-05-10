@@ -1098,7 +1098,7 @@
       "resourceType": "Intervention"
     },
     {
-      "card_html": "TrueNTH Decision Support is intended for use by men who have not yet started active treatment.", 
+      "card_html": "TrueNTH Decision Support is intended for use by men who have been diagnosed with localized prostate cancer (the cancer is not in other parts of the body), but who have not yet started active treatment.",
       "description": "Decision Support", 
       "display_rank": 32, 
       "link_label": "Not Available", 

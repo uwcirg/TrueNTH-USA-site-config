@@ -1228,6 +1228,11 @@
       "custom_text": "TrueNTH Reminder", 
       "name": "profileSendEmail reminder email_subject", 
       "resourceType": "AppText"
+    },
+    {
+      "custom_text": "Consent Date", 
+      "name": "consent date label", 
+      "resourceType": "AppText"
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=a3b73a90-d7b2-f6a0-f4b9-3b3d716ee6ca&editorUrl=true",

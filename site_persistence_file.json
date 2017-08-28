@@ -1072,6 +1072,23 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "strategy_3",
+            "value": "observation_check"
+          },
+          {
+            "name": "strategy_3_kwargs",
+            "value": [
+              {
+                "name": "display",
+                "value": "biopsy"
+              },
+              {
+                "name": "boolean_value",
+                "value": "true"
+              }
+            ]
           } 
         ]
       }, 

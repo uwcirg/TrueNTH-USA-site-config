@@ -1037,7 +1037,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "Confirm user is patient who hasn't been given access to Sexual Recovery, and who has a Biopsy",
+      "description": "Confirm user is patient who hasn't been given access to Sexual Recovery", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -1072,29 +1072,12 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "strategy_3",
-            "value": "observation_check"
-          },
-          {
-            "name": "strategy_3_kwargs",
-            "value": [
-              {
-                "name": "display",
-                "value": "biopsy"
-              },
-              {
-                "name": "boolean_value",
-                "value": "true"
-              }
-            ]
           } 
         ]
       }, 
       "id": 1001, 
       "intervention_name": "self_management", 
-      "name": "Allow Self Management if patient not in Sexual Recovery and has Biopsy",
+      "name": "Allow Self Management if patient not in Sexual Recovery", 
       "resourceType": "AccessStrategy"
     }, 
     {

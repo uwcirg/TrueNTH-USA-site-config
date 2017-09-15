@@ -1170,6 +1170,112 @@
       "resourceType": "AccessStrategy"
     }, 
     {
+      "name": "pam", 
+      "resourceType": "Questionnaire"
+    }, 
+    {
+      "name": "maxpc", 
+      "resourceType": "Questionnaire"
+    }, 
+    {
+      "name": "epic26", 
+      "resourceType": "Questionnaire"
+    }, 
+    {
+      "name": "eq5d", 
+      "resourceType": "Questionnaire"
+    }, 
+    {
+      "resourceType": "QuestionnaireBank", 
+      "name": "symptom_tracker", 
+      "intervention": {
+        "display": "self_management", 
+        "reference": "api/intervention/self_management"
+      }, 
+      "classification": "baseline", 
+      "start": "{\"days\": 0}",
+      "expired": "{\"months\": 3}", 
+      "recurs": [], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "epic26", 
+            "reference": "api/questionnaire/epic26"
+          }, 
+          "rank": 0 
+        }, 
+        {
+          "questionnaire": {
+            "display": "eq5d", 
+            "reference": "api/questionnaire/eq5d"
+          }, 
+          "rank": 1  
+        },
+        {
+          "questionnaire": {
+            "display": "maxpc", 
+            "reference": "api/questionnaire/maxpc"
+          }, 
+          "rank": 2
+        }, 
+        {
+          "questionnaire": {
+            "display": "pam", 
+            "reference": "api/questionnaire/pam"
+          }, 
+          "rank": 3
+        } 
+      ] 
+    }, 
+    {
+      "resourceType": "QuestionnaireBank", 
+      "name": "symptom_tracker_recurring", 
+      "intervention": {
+        "display": "self_management", 
+        "reference": "api/intervention/self_management"
+      }, 
+      "classification": "recurring", 
+      "start": "{\"days\": 0}",
+      "expired": "{\"months\": 3}", 
+      "recurs": [
+        {
+          "cycle_length": "{\"months\": 3}", 
+          "start": "{\"months\": 3}", 
+          "termination": "{\"months\": 27}"
+        }
+      ], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "epic26", 
+            "reference": "api/questionnaire/epic26"
+          }, 
+          "rank": 0 
+        }, 
+        {
+          "questionnaire": {
+            "display": "eq5d", 
+            "reference": "api/questionnaire/eq5d"
+          }, 
+          "rank": 1  
+        },
+        {
+          "questionnaire": {
+            "display": "maxpc", 
+            "reference": "api/questionnaire/maxpc"
+          }, 
+          "rank": 2
+        }, 
+        {
+          "questionnaire": {
+            "display": "pam", 
+            "reference": "api/questionnaire/pam"
+          }, 
+          "rank": 3
+        } 
+      ] 
+    }, 
+    {
       "custom_text": "Tools for navigating the prostate cancer journey", 
       "name": "landing sub-title", 
       "resourceType": "AppText"

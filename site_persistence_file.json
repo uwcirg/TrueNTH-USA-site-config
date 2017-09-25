@@ -1530,10 +1530,17 @@
     },
     {
       "resourceType": "ScheduledJob",
-      "schedule": "25 * * * *",
+      "schedule": "0,20,40 * * * *",
       "name": "Prepare ready communications",
       "active": true,
       "task": "prepare_communications"
+    },
+    {
+      "resourceType": "ScheduledJob",
+      "schedule": "10,30,50 * * * *",
+      "name": "Send ready communications",
+      "active": true,
+      "task": "send_queued_communications"
     },
     {
       "resourceType": "ScheduledJob",

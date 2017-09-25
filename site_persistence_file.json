@@ -1523,7 +1523,7 @@
     }, 
     {
       "resourceType": "ScheduledJob",
-      "schedule": "15 * * * *",
+      "schedule": "17 * * * *",
       "name": "Update assessment status cache",
       "active": true,
       "task": "cache_assessment_status"
@@ -1544,7 +1544,7 @@
     },
     {
       "resourceType": "ScheduledJob",
-      "schedule": "45 * * * *",
+      "schedule": "48 * * * *",
       "name": "Update reporting stats cache",
       "active": true,
       "task": "cache_reporting_stats"

@@ -1194,7 +1194,7 @@
       }, 
       "classification": "baseline", 
       "start": "{\"days\": 0}",
-      "expired": "{\"months\": 3}", 
+      "expired": "{\"months\": 3, \"days\": -14}", 
       "recurs": [], 
       "questionnaires": [
         {

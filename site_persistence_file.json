@@ -1240,7 +1240,7 @@
       "recurs": [
         {
           "cycle_length": "{\"months\": 3}", 
-          "start": "{\"months\": 3}", 
+          "start": "{\"months\": 3, \"weeks\": -2}", 
           "termination": "{\"months\": 27}"
         }
       ], 

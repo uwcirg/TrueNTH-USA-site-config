@@ -1564,7 +1564,7 @@
         "DEFAULT_LOCALE = 'en_US'\n", 
         "NO_CHALLENGE_WO_DATA = True  # Grandfather in users missing data\n",
         "PATIENT_LIST_ADDL_FIELDS = ['reports']\n",
-        "PORTAL_STYLESHEET = 'css/portal.css'\n", 
+        "PORTAL_STYLESHEET = '/static/css/portal.css'\n", 
         "GIL = True\n", 
         "SHOW_WELCOME = True\n",
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'consent', 'clinical_questions', 'intervention_reports', 'procedures', 'gender', 'interventions']\n", 

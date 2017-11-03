@@ -43,7 +43,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Pacific"
+          "timezone": "America/Los_Angeles"
         }
       ]	
     }, 
@@ -172,7 +172,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Pacific"
+          "timezone": "America/Los_Angeles"
         }
       ] 
     }, 
@@ -211,7 +211,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -250,7 +250,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -289,7 +289,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Pacific"
+          "timezone": "America/Los_Angeles"
         }
       ]	
     }, 
@@ -328,7 +328,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Pacific"
+          "timezone": "America/Los_Angeles"
         }
       ]	
     }, 
@@ -367,7 +367,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -406,7 +406,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -445,7 +445,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -484,7 +484,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -517,7 +517,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Pacific"
+          "timezone": "America/Los_Angeles"
         }
       ]	
     }, 
@@ -556,7 +556,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Mountain"
+          "timezone": "America/Denver"
         }
       ]	
     }, 
@@ -595,7 +595,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -634,7 +634,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 
@@ -673,7 +673,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
-          "timezone": "US/Eastern"
+          "timezone": "America/New_York"
         }
       ]	
     }, 

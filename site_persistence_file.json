@@ -39,7 +39,13 @@
       ], 
       "name": "UW Medicine (University of Washington)", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Pacific"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -162,7 +168,13 @@
       ], 
       "name": "UCSF Medical Center", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Pacific"
+        }
+      ] 
     }, 
     {
       "address": [], 
@@ -195,7 +207,13 @@
       ], 
       "name": "Karmanos Cancer Institute at Wayne State University", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -228,7 +246,13 @@
       ], 
       "name": "University of Michigan Cancer Center", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -261,7 +285,13 @@
       ], 
       "name": "UC Davis Cancer Center", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Pacific"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -294,7 +324,13 @@
       ], 
       "name": "UCLA Urology", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Pacific"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -327,7 +363,13 @@
       ], 
       "name": "Emory Healthcare", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -360,7 +402,13 @@
       ], 
       "name": "Moffitt Cancer Center", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -393,7 +441,13 @@
       ], 
       "name": "Dana-Farber Cancer Institute / Brigham and Womens", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -426,7 +480,13 @@
       ], 
       "name": "Memorial Sloan Kettering Cancer Center", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -453,7 +513,13 @@
       ], 
       "name": "Oregon Health & Science University", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Pacific"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -486,7 +552,13 @@
       ], 
       "name": "University of Colorado, Denver", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Mountain"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -519,7 +591,13 @@
       ], 
       "name": "Duke University Health System", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -552,7 +630,13 @@
       ], 
       "name": "Johns Hopkins University", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -585,7 +669,13 @@
       ], 
       "name": "University of North Carolina at Chapel Hill", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "US/Eastern"
+        }
+      ]	
     }, 
     {
       "card_html": "Assessment Engine", 

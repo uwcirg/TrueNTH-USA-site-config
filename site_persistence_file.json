@@ -53,15 +53,9 @@
         },
         {
           "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "p3pclinica"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "p3pclinca"
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Urology Clinic at UWMC todo"
         }
       ], 
       "name": "Urology Clinic at UWMC", 
@@ -83,9 +77,9 @@
         },
         {
           "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "p3pclinicb"
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "SCCA Urology Clinic todo"
         },
         {
           "assigner": null, 
@@ -113,11 +107,11 @@
         },
         {
           "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "p3pclinicc"
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Urology Clinic at Harborview todo"
         },
-	{
+        {
           "assigner": null,
           "system": "http://us.truenth.org/identity-codes/practice-region",
           "use": "secondary",
@@ -133,7 +127,7 @@
     }, 
     {
       "address": [], 
-      "id": 201, 
+      "id": 202, 
       "identifier": [
         {
           "assigner": null, 
@@ -141,12 +135,6 @@
           "use": "official", 
           "value": "1164512851"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "ucsf"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -160,13 +148,46 @@
           "value": "wisercare"
         }
       ], 
-      "name": "UCSF Medical Center", 
+      "name": "University of California, San Francisco", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 301, 
+      "id": 201, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP201"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucsf"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Urologic Surgical Oncology Clinic"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CA"
+        }
+      ], 
+      "name": "UCSF Urologic Surgical Oncology Clinic", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 302, 
       "identifier": [
         {
           "assigner": null, 
@@ -174,12 +195,6 @@
           "use": "official", 
           "value": "1639429368"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "kciwsu"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -199,7 +214,115 @@
     }, 
     {
       "address": [], 
-      "id": 401, 
+      "id": 301, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP301"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "wsupg"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "UPG Urology"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MI"
+        }
+      ], 
+      "name": "Wayne State University Physician Group, Dearborn", 
+      "partOf": {
+        "reference": "api/organization/302"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 303, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP303"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "kciweisberg"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Weisberg Cancer Treatment Center"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MI"
+        }
+      ], 
+      "name": "Karmanos Cancer Institute at Lawrence and Idell Weisberg Cancer Treatment Center", 
+      "partOf": {
+        "reference": "api/organization/302"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 304, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP304"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "kciwertz"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Wertz Clinic"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MI"
+        }
+      ], 
+      "name": "Wertz Clinic at Karmanos Cancer Center", 
+      "partOf": {
+        "reference": "api/organization/302"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 402, 
       "identifier": [
         {
           "assigner": null, 
@@ -207,12 +330,6 @@
           "use": "official", 
           "value": "1508001561"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "umich"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -226,7 +343,70 @@
           "value": "p3p"
         }
       ], 
-      "name": "University of Michigan Cancer Center", 
+      "name": "University of Michigan", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 401, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP401"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "umich"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "The Division of Urologic Oncology"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MI"
+        }
+      ], 
+      "name": "The University of Michigan Department of Urology", 
+      "partOf": {
+        "reference": "api/organization/402"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 502, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1912987553"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CA"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
+          "use": "secondary", 
+          "value": "wisercare"
+        }
+      ], 
+      "name": "University of California, Davis", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -238,7 +418,7 @@
           "assigner": null, 
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
-          "value": "1912987553"
+          "value": "TEMP501"
         }, 
         {
           "assigner": null, 
@@ -246,6 +426,36 @@
           "use": "usual", 
           "value": "ucdav"
         },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "UC Davis Health"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CA"
+        }
+      ], 
+      "name": "UC Davis Medical Center", 
+      "partOf": {
+        "reference": "api/organization/502"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 602, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1639306798"
+        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -259,7 +469,7 @@
           "value": "wisercare"
         }
       ], 
-      "name": "UC Davis Cancer Center", 
+      "name": "University of California, Los Angeles", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -271,34 +481,73 @@
           "assigner": null, 
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
-          "value": "1639306798"
+          "value": "TEMP601"
         }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "ucla"
+          "value": "uclaww"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "UCLA Health todo"
         },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:CA"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/decision-support-group", 
-          "use": "secondary", 
-          "value": "wisercare"
         }
       ], 
-      "name": "UCLA Urology", 
+      "name": "Clark Urology Center, Westwood", 
+      "partOf": {
+        "reference": "api/organization/602"
+      }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 701, 
+      "id": 603, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP603"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "uclasm"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "UCLA Health TODO"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CA"
+        }
+      ], 
+      "name": "Frank Clark Urology Center, Santa Monica", 
+      "partOf": {
+        "reference": "api/organization/602"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 702, 
       "identifier": [
         {
           "assigner": null, 
@@ -306,12 +555,6 @@
           "use": "official", 
           "value": "1972758506"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "emory"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -325,7 +568,79 @@
           "value": "p3p"
         }
       ], 
-      "name": "Emory Healthcare", 
+      "name": "Emory University", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 701, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP701"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "emorystj"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "St. Joseph's"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:GA"
+        }
+      ], 
+      "name": "Emory Saint Joseph's Hospital", 
+      "partOf": {
+        "reference": "api/organization/702"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 703, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP703"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "emorywin"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Winship"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:GA"
+        }
+      ], 
+      "name": "Winship Cancer Institute of Emory University", 
+      "partOf": {
+        "reference": "api/organization/702"
+      }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -343,7 +658,13 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "moffit"
+          "value": "mcc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Moffitt Cancer Center"
         },
         {
           "assigner": null, 
@@ -364,7 +685,7 @@
     }, 
     {
       "address": [], 
-      "id": 901, 
+      "id": 902, 
       "identifier": [
         {
           "assigner": null, 
@@ -372,12 +693,6 @@
           "use": "official", 
           "value": "1215097910"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "dfci"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -391,7 +706,91 @@
           "value": "p3p"
         }
       ], 
-      "name": "Dana-Farber Cancer Institute / Brigham and Womens", 
+      "name": "Dana-Farber Cancer Institute", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 901, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP901"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "dfcibw"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "todo"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Dana-Farber/Brigham and Women's Cancer Center"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MA"
+        }
+      ], 
+      "name": "Dana-Farber/Brigham and Women's Cancer Center", 
+      "partOf": {
+        "reference": "api/organization/902"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 903, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP903"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "bidmc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "todo"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Beth Israel Deaconess"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MA"
+        }
+      ], 
+      "name": "The Cancer Center at Beth Israel Deaconess Medical Center", 
+      "partOf": {
+        "reference": "api/organization/902"
+      }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -410,6 +809,12 @@
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "mskcc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Memorial Sloan Kettering"
         },
         {
           "assigner": null, 
@@ -446,6 +851,12 @@
         },
         {
           "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Oregon Health & Science University"
+        },
+        {
+          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:OR"
@@ -457,7 +868,7 @@
     }, 
     {
       "address": [], 
-      "id": 1201, 
+      "id": 1202, 
       "identifier": [
         {
           "assigner": null, 
@@ -465,12 +876,6 @@
           "use": "official", 
           "value": "1598980310"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "ucden"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -490,7 +895,43 @@
     }, 
     {
       "address": [], 
-      "id": 1301, 
+      "id": 1201, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1201"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucden"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "CU Cancer Center"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:CO"
+        }
+      ], 
+      "name": "University of Colorado Cancer Center - Anschutz", 
+      "partOf": {
+        "reference": "api/organization/1202"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1302, 
       "identifier": [
         {
           "assigner": null, 
@@ -498,12 +939,6 @@
           "use": "official", 
           "value": "1588030878"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "duke"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -517,13 +952,121 @@
           "value": "p3p"
         }
       ], 
-      "name": "Duke University Health System", 
+      "name": "Duke University", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 1401, 
+      "id": 1301, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1301"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "dukeuro"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Duke Urology"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NC"
+        }
+      ], 
+      "name": "Duke Urology", 
+      "partOf": {
+        "reference": "api/organization/1302"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1303, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1303"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "dcc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Duke Cancer Center"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NC"
+        }
+      ], 
+      "name": "Duke Cancer Center", 
+      "partOf": {
+        "reference": "api/organization/1302"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1304, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1304"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "dccnd"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Duke North Durham"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NC"
+        }
+      ], 
+      "name": "Duke Cancer Center North Durham", 
+      "partOf": {
+        "reference": "api/organization/1302"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1402, 
       "identifier": [
         {
           "assigner": null, 
@@ -531,12 +1074,6 @@
           "use": "official", 
           "value": "1295731966"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "jhu"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -556,7 +1093,79 @@
     }, 
     {
       "address": [], 
-      "id": 1501, 
+      "id": 1401, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1401"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "jhusibley"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Sibley"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MD"
+        }
+      ], 
+      "name": "Sibley Memorial Hospital", 
+      "partOf": {
+        "reference": "api/organization/1402"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1403, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1403"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "jhusubur"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Suburban"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:MD"
+        }
+      ], 
+      "name": "Surburban Hospital", 
+      "partOf": {
+        "reference": "api/organization/1402"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1502, 
       "identifier": [
         {
           "assigner": null, 
@@ -564,12 +1173,6 @@
           "use": "official", 
           "value": "1285689299"
         }, 
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "unc"
-        },
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
@@ -584,6 +1187,42 @@
         }
       ], 
       "name": "University of North Carolina at Chapel Hill", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 1501, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "TEMP1501"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "unc"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortname", 
+          "use": "secondary", 
+          "value": "Lineberger"
+        },
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/practice-region", 
+          "use": "secondary", 
+          "value": "state:NC"
+        }
+      ], 
+      "name": "UNC Lineberger Comprehensive Cancer Center", 
+      "partOf": {
+        "reference": "api/organization/1502"
+      }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 

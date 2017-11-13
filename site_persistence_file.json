@@ -20,12 +20,6 @@
         }, 
         {
           "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
-          "use": "usual", 
-          "value": "uwmc"
-        },
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/practice-region", 
           "use": "secondary", 
           "value": "state:WA"
@@ -37,7 +31,7 @@
           "value": "p3p"
         }
       ], 
-      "name": "UW Medicine (University of Washington)", 
+      "name": "University of Washington", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -55,10 +49,10 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "Urology Clinic at UWMC todo"
+          "value": "UWMC"
         }
       ], 
-      "name": "Urology Clinic at UWMC", 
+      "name": "UW Medicine (University of Washington)", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -79,7 +73,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "SCCA Urology Clinic todo"
+          "value": "SCCA"
         },
         {
           "assigner": null, 
@@ -88,7 +82,7 @@
           "value": "state:WA"
         }
       ], 
-      "name": "SCCA Urology Clinic", 
+      "name": "Seattle Cancer Care Alliance (SCCA) Urology Clinic", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -109,7 +103,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "Urology Clinic at Harborview todo"
+          "value": "Harborview"
         },
         {
           "assigner": null,
@@ -118,7 +112,7 @@
           "value": "state:WA"
         }
       ], 
-      "name": "Urology Clinic at Harborview", 
+      "name": "The Urology Clinic at Harborview", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -158,12 +152,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP201"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "ucsf"
@@ -172,7 +160,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "Urologic Surgical Oncology Clinic"
+          "value": "UCSF"
         },
         {
           "assigner": null, 
@@ -218,12 +206,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP301"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "wsupg"
@@ -254,12 +236,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP303"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "kciweisberg"
@@ -288,12 +264,6 @@
       "address": [], 
       "id": 304, 
       "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP304"
-        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
@@ -353,12 +323,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP401"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "umich"
@@ -367,7 +331,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "The Division of Urologic Oncology"
+          "value": "The University of Michigan"
         },
         {
           "assigner": null, 
@@ -414,12 +378,6 @@
       "address": [], 
       "id": 501, 
       "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP501"
-        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
@@ -479,12 +437,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP601"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "uclaww"
@@ -493,7 +445,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "UCLA Health todo"
+          "value": "UCLA Health"
         },
         {
           "assigner": null, 
@@ -515,12 +467,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP603"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "uclasm"
@@ -529,7 +475,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "UCLA Health TODO"
+          "value": "UCLA Health"
         },
         {
           "assigner": null, 
@@ -578,12 +524,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP701"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "emorystj"
@@ -592,7 +532,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "St. Joseph's"
+          "value": "St. Joseph's Hospital"
         },
         {
           "assigner": null, 
@@ -612,12 +552,6 @@
       "address": [], 
       "id": 703, 
       "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP703"
-        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
@@ -716,21 +650,9 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP901"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "dfcibw"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortname", 
-          "use": "secondary", 
-          "value": "todo"
         },
         {
           "assigner": null, 
@@ -758,21 +680,9 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP903"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "bidmc"
-        },
-        {
-          "assigner": null, 
-          "system": "http://us.truenth.org/identity-codes/shortname", 
-          "use": "secondary", 
-          "value": "todo"
         },
         {
           "assigner": null, 
@@ -899,12 +809,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1201"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "ucden"
@@ -962,12 +866,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1301"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "dukeuro"
@@ -998,12 +896,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1303"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "dcc"
@@ -1012,7 +904,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "Duke Cancer Center"
+          "value": "The Duke Cancer Center"
         },
         {
           "assigner": null, 
@@ -1034,12 +926,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1304"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "dccnd"
@@ -1048,7 +934,7 @@
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortname", 
           "use": "secondary", 
-          "value": "Duke North Durham"
+          "value": "The Duke Cancer Center"
         },
         {
           "assigner": null, 
@@ -1097,12 +983,6 @@
       "identifier": [
         {
           "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1401"
-        }, 
-        {
-          "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
           "value": "jhusibley"
@@ -1131,12 +1011,6 @@
       "address": [], 
       "id": 1403, 
       "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1403"
-        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
@@ -1194,12 +1068,6 @@
       "address": [], 
       "id": 1501, 
       "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://hl7.org/fhir/sid/us-npi", 
-          "use": "official", 
-          "value": "TEMP1501"
-        }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
